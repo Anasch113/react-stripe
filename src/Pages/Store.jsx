@@ -12,11 +12,12 @@ const Store = () => {
       {
 productsArray.map((item, index)=>(
   
-<div key={index} className='flex flex-col px-5 py-5 w-96 h-96 rounded-md bg-purple-300 gap-5 shadow-lg'>
+<div key={index} className='flex flex-col px-5 py-5 w-96 h-96 rounded-md bg-white gap-5 shadow-xl'>
  
  <h2> Name: {item.title}</h2>
  <h4> Price: {item.price}</h4>
  <p> Description: {item.desc}</p>
+ <button className='px-7 py-2 rounded-lg bg-light-dark-purple  text-white'>Buy</button>
  </div>
 ))
   }

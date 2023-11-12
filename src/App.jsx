@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar'
 import Store from './Pages/Store'
 import Success from './Pages/Success'
 import Cancel from './Pages/Cancel'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   
