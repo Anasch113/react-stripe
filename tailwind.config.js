@@ -14,6 +14,17 @@ export default {
 
 
       },
+      textColor :{
+        'dark-purple': "#190482",
+        'light-dark-purple': "#7752FE",
+        'light-purple': "#8E8FFA",
+        'extra-light-purple': '#C2D9FF'
+
+
+      },
+      fontFamily : {
+        'poppins' : ['Poppins', 'sans-serif']
+      }
     
     },
   },

@@ -7,12 +7,14 @@ import Store from './Pages/Store'
 import Success from './Pages/Success'
 import Cancel from './Pages/Cancel'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import CartProvider from './CartContext'
 
 function App() {
   
 
   return (
     <>
+    <CartProvider>
    <Navbar/>
 
    <BrowserRouter>
@@ -27,6 +29,7 @@ function App() {
 
 
    </BrowserRouter>
+   </CartProvider>
     </>
   )
 }
